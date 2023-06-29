@@ -106,11 +106,20 @@ python manage.py migrate
 ```
 <h3>5. Run the server</h3>
 
-Finally, you're ready to start the development server:
+Now, you're ready to start the development server:
 ```
 python manage.py runserver
 ```
 
 This will start the server at [http://127.0.0.1:8000](url). Open this URL in your browser.
+
+<h3>6. Create a super user</h3>
+To have access to the admin dashboard you must create a super user:
+
+```
+python manage.py createsuperuser
+```
+
+
 
 
